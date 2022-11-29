@@ -1,0 +1,38 @@
+.all{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100vw;
+  height: 50px;
+}
+.NavBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+  width: 90%;
+  height: 100%;
+  border-radius: 15px;
+  background-color: rgb(46, 66, 92);
+}
+.button{
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 15%;
+  height: 35px;
+  border: solid rgb(86, 207, 255) 4px;
+  border-radius: 7px;
+  font-weight: bold;
+  background-color: rgb(142, 223, 255);
+  transition: 0.2s;
+}
+.button:hover{
+  border-radius: 20px;
+  background-color: rgb(86, 207, 255);
+  transition: 0.2s;
+}
+.link{
+  text-decoration: none;
+}
